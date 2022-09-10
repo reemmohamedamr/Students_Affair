@@ -1,0 +1,81 @@
+<div *ngIf="student">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label for="student-name">Student name: </label>
+            <div *ngIf="isViewMode"> {{student.student_Name}} </div>
+            <input *ngIf="!isViewMode" id="student_Name" class="form-control" 
+            name="student_Name"
+                type="text" [(ngModel)]="student.student_Name" placeholder="name" required maxlength="250">
+            <span class="invalid-feedback" id="student_Name_error">
+                Student Name is required
+            </span>
+        </div>
+        <div class="form-group col-md-4">
+            <label for="student-address">Student address: </label>
+            <div *ngIf="isViewMode"> {{student.student_Address}} </div>
+            <input *ngIf="!isViewMode" class="form-control" id="student_address" type="text"
+                [(ngModel)]="student.student_Address" name="student_Address" placeholder="address">
+                <span class="invalid-feedback" id="student_Address_error">
+                    Student Address is required
+                </span>
+            </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label for="student-birthDate">Student birthDate: </label>
+            <div *ngIf="isViewMode"> {{student.student_BirthDate}} </div>
+            <input *ngIf="!isViewMode" class="form-control" id="student_BirthDate" type="date"
+                [(ngModel)]="student.student_BirthDate"
+                name="student_BirthDate"  placeholder="birthDate">
+                <span class="invalid-feedback" id="student_BirthDate_error">
+                    Student BirthDate is required
+                </span>
+        </div>
+        <div class="form-group col-md-4">
+            <label for="studentClass-id">Student class: </label>
+            <div *ngIf="isViewMode"> {{student.studentClass_Name}} </div>
+            <select *ngIf="!isViewMode" class="form-control" id="student_Class" #Id="ngModel"
+                [(ngModel)]="student.studentClass_ID" name="studentClass_ID">
+                <option selected="" value=""></option>
+                <option [ngValue]="cls.studentClass_ID" *ngFor="let cls of student.classesList">
+                    {{cls.studentClass_Name}}
+                </option>
+            </select>
+            <span class="invalid-feedback" id="student_Class_error">
+                Student Class is required
+            </span>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="subject-id">Subjects: </label>
+            <ng-multiselect-dropdown [placeholder]="'custom placeholder'" [settings]="dropdownSettings"
+                [data]="student.subjectsList" [(ngModel)]="selectedItems" (onSelect)="onItemSelect($event)"
+                (onDeSelect)="onItemDeSelect($event)" id="student_subjectsList"
+                name="student_subjectsList" [disabled]="isViewMode">
+            </ng-multiselect-dropdown>
+            <span class="invalid-feedback" id="student_subjectsList_error">
+                Student subjects is required
+            </span>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="student-emailAddress">Student emailAddress: </label>
+            <div *ngIf="isViewMode"> {{student.student_EmailAddress}} </div>
+            <input *ngIf="!isViewMode" class="form-control" id="student_EmailAddress" type="email"
+                [(ngModel)]="student.student_EmailAddress" 
+                name="student_EmailAddress" placeholder="emailAddress" required
+                pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$">
+                <span class="invalid-feedback" id="student_EmailAddress_error">
+                    Student EmailAddress is required
+                </span>
+                <span class="invalid-feedback" id="student_EmailAddress_regex">
+                    Student EmailAddress is invalid
+                </span>
+                
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="button" class="btn btn-primary" (click)="goBack()">Back</button>
+        <button *ngIf="!isViewMode" class="btn btn-primary" type="submit" (click)="save()">Save</button>
+    </div>
+</div>

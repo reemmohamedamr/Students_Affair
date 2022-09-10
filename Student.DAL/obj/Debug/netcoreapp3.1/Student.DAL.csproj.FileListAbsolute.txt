@@ -1,0 +1,13 @@
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\obj\Debug\netcoreapp3.1\Student.DAL.csproj.AssemblyReference.cache
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\obj\Debug\netcoreapp3.1\Student.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\obj\Debug\netcoreapp3.1\Student.DAL.AssemblyInfoInputs.cache
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\obj\Debug\netcoreapp3.1\Student.DAL.AssemblyInfo.cs
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\obj\Debug\netcoreapp3.1\Student.DAL.csproj.CoreCompileInputs.cache
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\bin\Debug\netcoreapp3.1\Student.DAL.deps.json
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\bin\Debug\netcoreapp3.1\Student.DAL.dll
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\bin\Debug\netcoreapp3.1\Student.DAL.pdb
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\bin\Debug\netcoreapp3.1\Students.Model.dll
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\bin\Debug\netcoreapp3.1\Students.Model.pdb
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\obj\Debug\netcoreapp3.1\Student.DAL.csproj.CopyComplete
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\obj\Debug\netcoreapp3.1\Student.DAL.dll
+D:\LinkDevelopment\Workshop\Student_Affairs\Student.DAL\obj\Debug\netcoreapp3.1\Student.DAL.pdb

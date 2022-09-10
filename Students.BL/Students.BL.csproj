@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ManagerFactory\" />
+    <Folder Include="IManagerFactory\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Student.DAL\Students.DAL.csproj" />
+    <ProjectReference Include="..\Students.Model\Students.Model.csproj" />
+  </ItemGroup>
+
+</Project>

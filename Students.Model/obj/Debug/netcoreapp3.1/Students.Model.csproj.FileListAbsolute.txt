@@ -1,0 +1,13 @@
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\bin\Debug\netcoreapp3.1\Students.Model.deps.json
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\bin\Debug\netcoreapp3.1\Students.Model.runtimeconfig.json
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\bin\Debug\netcoreapp3.1\Students.Model.runtimeconfig.dev.json
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\bin\Debug\netcoreapp3.1\Students.Model.dll
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\bin\Debug\netcoreapp3.1\Students.Model.pdb
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\obj\Debug\netcoreapp3.1\Students.Model.csproj.AssemblyReference.cache
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\obj\Debug\netcoreapp3.1\Students.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\obj\Debug\netcoreapp3.1\Students.Model.AssemblyInfoInputs.cache
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\obj\Debug\netcoreapp3.1\Students.Model.AssemblyInfo.cs
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\obj\Debug\netcoreapp3.1\Students.Model.csproj.CoreCompileInputs.cache
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\obj\Debug\netcoreapp3.1\Students.Model.dll
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\obj\Debug\netcoreapp3.1\Students.Model.pdb
+D:\LinkDevelopment\Workshop\Student_Affairs\Students.Model\obj\Debug\netcoreapp3.1\Students.Model.genruntimeconfig.cache
